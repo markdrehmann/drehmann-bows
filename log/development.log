@@ -1,0 +1,34 @@
+Started GET "/" for ::1 at 2021-01-19 10:42:38 -0600
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/goodalena12/.rvm/gems/ruby-2.6.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/goodalena12/.rvm/gems/ruby-2.6.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 30.0ms | Allocations: 519)
+Completed 200 OK in 108ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 4337)
+
+
+Started GET "/home" for ::1 at 2021-01-19 10:42:43 -0600
+Processing by StaticController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 112)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/goodalena12/Flatiron/code/drehmann-bows/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.46.0
+Time: 5830ms
+Built at: 01/19/2021 10:42:59 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 16356.9ms | Allocations: 16625)
+Completed 200 OK in 16394ms (Views: 16384.3ms | ActiveRecord: 0.0ms | Allocations: 17881)
+
+
