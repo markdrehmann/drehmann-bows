@@ -32,3 +32,263 @@ Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d
 Completed 200 OK in 16394ms (Views: 16384.3ms | ActiveRecord: 0.0ms | Allocations: 17881)
 
 
+Started GET "/" for ::1 at 2021-01-21 10:01:42 -0600
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/goodalena12/.rvm/gems/ruby-2.6.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/goodalena12/.rvm/gems/ruby-2.6.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.0ms | Allocations: 354)
+Completed 200 OK in 86ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 2694)
+
+
+Started GET "/home" for ::1 at 2021-01-21 10:01:51 -0600
+Processing by StaticController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 182.8ms | Allocations: 14088)
+Completed 200 OK in 194ms (Views: 190.3ms | ActiveRecord: 0.0ms | Allocations: 15262)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:01:51 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/mqd-bench.jpg" for ::1 at 2021-01-21 10:01:52 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/mqd-bench.jpg"):
+  
+Started GET "/photos.html" for ::1 at 2021-01-21 10:02:07 -0600
+Processing by StaticController#photos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/photos.html.erb within layouts/application
+  Rendered static/photos.html.erb within layouts/application (Duration: 1.7ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 3749)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 4331)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:02:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/Vln-1.jpg" for ::1 at 2021-01-21 10:02:07 -0600
+Started GET "/images/Vln-2.jpg" for ::1 at 2021-01-21 10:02:07 -0600
+Started GET "/images/Clo-3.jpg" for ::1 at 2021-01-21 10:02:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-1.jpg"):
+  
+Started GET "/images/Clo-2.jpg" for ::1 at 2021-01-21 10:02:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-2.jpg"):
+  
+Started GET "/images/mqd-bench.jpg" for ::1 at 2021-01-21 10:02:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/mqd-bench.jpg"):
+  
+Started GET "/images/Clo-1.jpg" for ::1 at 2021-01-21 10:02:08 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-1.jpg"):
+  
+Started GET "/contact.html" for ::1 at 2021-01-21 10:02:09 -0600
+Processing by StaticController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (Duration: 2.3ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3616)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4121)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:02:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/Vln-1.jpg" for ::1 at 2021-01-21 10:02:09 -0600
+Started GET "/images/Clo-1.jpg" for ::1 at 2021-01-21 10:02:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-1.jpg"):
+  
+Started GET "/images/Vln-2.jpg" for ::1 at 2021-01-21 10:02:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-2.jpg"):
+  
+Started GET "/images/Clo-3.jpg" for ::1 at 2021-01-21 10:02:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-3.jpg"):
+  
+Started GET "/images/Clo-2.jpg" for ::1 at 2021-01-21 10:02:10 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-2.jpg"):
+  
+Started GET "/index.html" for ::1 at 2021-01-21 10:02:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+Started GET "/index.html" for ::1 at 2021-01-21 10:03:06 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+Started GET "/contact.html" for ::1 at 2021-01-21 10:03:14 -0600
+Processing by StaticController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (Duration: 3.2ms | Allocations: 140)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 109.5ms | Allocations: 3798)
+Completed 200 OK in 125ms (Views: 120.4ms | ActiveRecord: 0.0ms | Allocations: 4924)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:03:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/home.html" for ::1 at 2021-01-21 10:03:16 -0600
+Processing by StaticController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 3619)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 4123)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:03:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/mqd-bench.jpg" for ::1 at 2021-01-21 10:03:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/mqd-bench.jpg"):
+  
+Started GET "/home.html" for ::1 at 2021-01-21 10:03:54 -0600
+Processing by StaticController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (Duration: 6.6ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.7ms | Allocations: 3799)
+Completed 200 OK in 94ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 4917)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:03:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/mqd-bench.jpg" for ::1 at 2021-01-21 10:03:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/mqd-bench.jpg"):
+  
+Started GET "/photos.html" for ::1 at 2021-01-21 10:04:16 -0600
+Processing by StaticController#photos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/photos.html.erb within layouts/application
+  Rendered static/photos.html.erb within layouts/application (Duration: 1.4ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 3801)
+Completed 200 OK in 40ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 4918)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:04:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/Clo-1.jpg" for ::1 at 2021-01-21 10:04:16 -0600
+Started GET "/images/Clo-2.jpg" for ::1 at 2021-01-21 10:04:16 -0600
+Started GET "/images/Vln-2.jpg" for ::1 at 2021-01-21 10:04:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/Vln-1.jpg"):
+  
+Started GET "/images/mqd-bench.jpg" for ::1 at 2021-01-21 10:04:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/mqd-bench.jpg"):
+  
+Started GET "/images/Clo-3.jpg" for ::1 at 2021-01-21 10:04:17 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-3.jpg"):
+  
+Started GET "/photos.html" for ::1 at 2021-01-21 10:04:26 -0600
+Processing by StaticController#photos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/photos.html.erb within layouts/application
+  Rendered static/photos.html.erb within layouts/application (Duration: 0.8ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 3801)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 4918)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:04:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/images/Clo-1.jpg" for ::1 at 2021-01-21 10:04:27 -0600
+Started GET "/images/Clo-3.jpg" for ::1 at 2021-01-21 10:04:27 -0600
+Started GET "/images/Clo-2.jpg" for ::1 at 2021-01-21 10:04:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/Vln-1.jpg"):
+  
+Started GET "/images/Vln-2.jpg" for ::1 at 2021-01-21 10:04:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-2.jpg"):
+  
+Started GET "/photos.html" for ::1 at 2021-01-21 10:04:56 -0600
+Processing by StaticController#photos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static/photos.html.erb within layouts/application
+  Rendered static/photos.html.erb within layouts/application (Duration: 3.4ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 3801)
+Completed 200 OK in 147ms (Views: 66.6ms | ActiveRecord: 0.0ms | Allocations: 4918)
+
+
+Started GET "/style.css" for ::1 at 2021-01-21 10:04:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/Vln-1.jpg" for ::1 at 2021-01-21 10:04:56 -0600
+Started GET "/images/Clo-1.jpg" for ::1 at 2021-01-21 10:04:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-1.jpg"):
+  
+Started GET "/images/Vln-2.jpg" for ::1 at 2021-01-21 10:04:56 -0600
+Started GET "/images/Clo-2.jpg" for ::1 at 2021-01-21 10:04:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/Vln-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Vln-2.jpg"):
+  
+Started GET "/images/Clo-3.jpg" for ::1 at 2021-01-21 10:04:57 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Clo-3.jpg"):
+  
