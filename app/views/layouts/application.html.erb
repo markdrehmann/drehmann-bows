@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mark Drehmann Bows</title>
+    <title>Mark Drehmann, Bowmaker</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= favicon_link_tag asset_path('WS-model-icon.png') %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>   
+      <span class="title" margin=5% style=float:left><h1>Mark Drehmann, Bowmaker</h1></span> 
+      <span class="pages" style=float:right>
+      <a href="./home.html"><h4>HOME</h4></a> <a href="./photos.html"><h4>PHOTOS</h4></a> <a href="./contact.html"><h4>CONTACT</h4></a>
+      </span>
+      <hr>
+    </header> 
+
     <%= yield %>
+    
   </body>
 </html>
